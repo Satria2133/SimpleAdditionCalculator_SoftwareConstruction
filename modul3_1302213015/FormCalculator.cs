@@ -60,6 +60,11 @@ namespace modul3_1302213015
             this.result.Text += "9";
         }
 
+        private void button11_Click(object sender, EventArgs e)
+        { 
+            this.result.Text += "0";
+        }
+
         private void plusButton_Click(object sender, EventArgs e)
         {
             int sum = int.Parse(this.result.Text);
@@ -78,6 +83,11 @@ namespace modul3_1302213015
         {
             this.result.Text = "";
             finalRes = 0;   
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            this.result.Text += "0";
         }
     }
 }
